@@ -5,7 +5,7 @@ function gotData(data){
   fbData = data.val();
 
   if(fbData) {
-    console.log('received data:');
+    // console.log('received data:');
     console.log(fbData);
     fbDataArray = Object.values(fbData);
   }
